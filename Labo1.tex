@@ -67,8 +67,8 @@ L'expérience est réalisée en utilisant dans un premier temps une fente rectan
 		\hline
 		 & \bf [mm] & \bf [mm] & \bf [mm] & \bf [mm] & \bf [nm]  & \bf [nm] \\
 		\hline
-		4 & 5670 & 50 & 118 &  1 & &  \\
-		5 & 5670 & 50 & 146 &  1 & & \\
+		4 & 5670 & 50 & 118 &  1 & 772 &  13\\
+		5 & 5670 & 50 & 146 &  1 & 618 &  9\\
 		\hline
 	\end{tabular}
 	\end{center}
@@ -81,8 +81,8 @@ L'expérience est réalisée en utilisant dans un premier temps une fente rectan
 		\hline
 		 & \bf [mm] & \bf [mm] & \bf [mm] & \bf [mm] & \bf [mm]  & \bf [mm] \\
 		\hline
-		4 & 5670 & 50 & 34&  1 &0,4&  \\
-		5 & 5670 & 50 & 42&  1 &0,4& \\
+		4 & 5670 & 50 & 34&  1 &0,41 & 0,02 \\
+		5 & 5670 & 50 & 42&  1 &0,42 & 0,02\\
 		\hline
 	\end{tabular}
 	\end{center}	
@@ -99,8 +99,6 @@ L'expérience est réalisée en utilisant dans un premier temps une fente rectan
 		  \item n est ordre
 		  \item z est distance du minima 
 		 \end{itemize}
-		
-				
 		\subsubsection{Calcul de l'incertitude de $\lambda$}
 		\begin{equation}
 		\frac{\Delta \lambda}{\lambda} = \frac{\Delta\left(\frac{a.z_{n}}{n.D}\right)}{\frac{a.z_{n}}{n.D}} 
@@ -111,13 +109,16 @@ L'expérience est réalisée en utilisant dans un premier temps une fente rectan
 		= \left(\frac{\Delta D}{D}+\frac{\Delta z_{n}}{z_{n}}\right).\lambda
 		\end{equation}
 		\begin{center}
-		$\Delta \lambda = \left(\frac{50}{5670}+\frac{,,}{,,}\right).,, = $
+		$\Delta \lambda = \left(\frac{50}{5670}+\frac{1}{118}\right) 618 = 9 nm$
 		\end{center}
 		\subsection{Expérience avec fente circulaire}
 		\subsubsection{Calcul de la longueur du diamètre de la fente}
 		\begin{equation}
 		a = \frac{\lambda.n.D}{z_{n}}
 		\end{equation}
+		\begin{center}
+		$a = \frac{618.10^{-6}.4.5670}{42} = 0,4 mm$
+		\end{center}
 		\subsubsection{Calcul de l'incertitude sur le diamètre de la fente}
 		\begin{equation}
 		\frac{\Delta a}{a} =\frac{\Delta\left(\frac{\lambda.n.D}{z_{n}}\right)}{ \frac{\lambda.n.D}{z_{n}}} = \frac{\Delta D}{D}+\frac{\Delta z_{n}}{z_{n}}+ \frac{\Delta \lambda}{\lambda}
@@ -125,6 +126,9 @@ L'expérience est réalisée en utilisant dans un premier temps une fente rectan
 		\begin{equation}
 		\Delta a = \left(\frac{\Delta D}{D}+\frac{\Delta z_{n}}{z_{n}}+\frac{\Delta \lambda}{\lambda}\right).a
 		\end{equation}
+		\begin{center}
+		$\Delta a = \left(\frac{50}{5670}+\frac{1}{118}+\frac{9}{618}\right).0,41 = 0,02 mm$
+		\end{center}
 	\section{Conclusion}
 \chapter{Le phénomène d'interférence}
 	\section{Rappels théorique}
@@ -135,11 +139,7 @@ Pour observer ce phénomène, nous faisons passer un rayon monochromatique de lo
 \paragraph{}
 Si nous pouvions isoler le phénomène d'interférence, la figure obtenue représenterait une succession de franges sombres (interférences destructives) et de franges lumineuses (interférences constructives) de même taille. De plus, l'intensité maximale des franges lumineuses serait constante et proportionnelle au carré de l'amplitude de l'onde 
 
-!!
-
-Les minima seraient alors obtenus pour $\alpha$=… et les maxima pour $\alpha$=…
-
-Dans la pratique, comme nous utilisons des fentes d'une largeur comparable à $\lambda$ pour former nos sources cohérentes, un phénomène de diffraction (comme vu précédemment) apparaît également et s'ajoute au phénomène d'interférence. La figure (mettre image) obtenue sur l'écran n'est donc plus une simple fonction périodique puisqu'il s'agit ici du produit du facteur de diffraction $\left(\frac{sin(\beta)}{2})\right)^{2}/(\beta/2)^2$ avec le facteur d'interférence $(cos\alpha)^{2}$. Nous retrouvons donc une figure symétrique avec une succession périodique de franges dont l’intensité lumineuse varie et en son centre nous avons un pic d'intensité deux fois plus large que les autres zones
+Dans la pratique, comme nous utilisons des fentes d'une largeur comparable à $\lambda$ pour former nos sources cohérentes, un phénomène de diffraction (comme vu précédemment) apparaît également et s'ajoute au phénomène d'interférence. La figure (mettre image) obtenue sur l'écran n'est donc plus une simple fonction périodique puisqu'il s'agit ici du produit du facteur de diffraction. Nous retrouvons donc une figure symétrique avec une succession périodique de franges dont l’intensité lumineuse varie et en son centre nous avons un pic d'intensité deux fois plus large que les autres zones
 
 	\section{Schéma de principe}
 	voir figure \ref{schemadeprincipe} p.\pageref{schemadeprincipe}
@@ -200,11 +200,18 @@ Dans la pratique, comme nous utilisons des fentes d'une largeur comparable à $\
 \paragraph{}
 Comme ce réseau de fentes disperse le rayon sous un angle $\theta$ important, nous obtenons une figure très étendue et composée de maxima d'intensité beaucoup plus étroits que dans les expériences précédentes.
 \paragraph{}
-L'intensité de l'onde ‘formule cadrep49’ est ici proportionnelle  au facteur d'interférence ‘(sinNγ)/sinγ’ avec ‘γ=π…. + préciser que a=1/N’
+L'intensité de l'onde est ici proportionnelle  au facteur d'interférence :
+\begin{equation}
+I = I_{0}.\frac{sin^2 \beta}{\beta^2}.\frac{sin^2N\gamma}{sin^2 \gamma}
+\end{equation}
+\begin{center}
+où $\gamma = \pi, 2\pi...$
+\end{center}
 
-Ce facteur s’annule pour γ=(n’π/N) avec n’…. (p49)
-
-Et donne des maximum d’intensité pour ‘γ= nπ’…
+\paragraph{}
+Ce facteur s'annule pour $\lambda = \frac{n\pi} {N} avec n=0,1,2…. $
+\paragraph{}
+Et donne des maximum d’intensité pour $\lambda = n\pi$
 
 	\section{Schéma de principe}
 	voir figure \ref{schemadeprincipe} p.\pageref{schemadeprincipe}

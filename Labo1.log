@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.19)  6 MAR 2016 21:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.19)  6 MAR 2016 22:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -568,124 +568,19 @@ Chapitre 2.
 ] [6]
 Chapitre 3.
 
-! Package inputenc Error: Unicode char \u8:γ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.203 ...le  au facteur d'interférence ‘(sinNγ
-                                                  )/sinγ’ avec ‘γ=π�...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:γ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.203 ...facteur d'interférence ‘(sinNγ)/sinγ
-                                                  ’ avec ‘γ=π…. + pr...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:γ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.203 ...rférence ‘(sinNγ)/sinγ’ avec ‘γ
-                                                  =π…. + préciser que a=...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:π not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.203 ...�rence ‘(sinNγ)/sinγ’ avec ‘γ=π
-                                                  …. + préciser que a=1/N’
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:γ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.205 Ce facteur s’annule pour γ
-                                   =(n’π/N) avec n’…. (p49)
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:π not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.205 Ce facteur s’annule pour γ=(n’π
-                                           /N) avec n’…. (p49)
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:γ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.207 ...nne des maximum d’intensité pour ‘γ
-                                                  = nπ’…
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:π not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.207 ...es maximum d’intensité pour ‘γ= nπ
-                                                  ’…
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 212.
 
 [7
 
 ] [8] [9] (./Labo1.aux) ) 
 Here is how much of TeX's memory you used:
- 4384 strings out of 493089
- 58041 string characters out of 6134842
+ 4380 strings out of 493089
+ 58008 string characters out of 6134842
  141317 words of memory out of 5000000
- 7780 multiletter control sequences out of 15000+600000
+ 7776 multiletter control sequences out of 15000+600000
  18495 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,30p,735b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,8n,30p,632b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm
 -super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmbsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
@@ -706,7 +601,7 @@ sr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Labo1.pdf (9 pages, 295111 bytes).
+Output written on Labo1.pdf (9 pages, 295097 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
