@@ -6,11 +6,45 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{graphicx}
+
 \begin{document}
 \tableofcontents
 \chapter{Le phénomène de diffraction}
 	\section{Rappels théorique}
+\paragraph{}	
+Le phénomène de diffraction que nous étudions apparait lorsqu'une onde passe à travers une fente d'une largeur inférieure à sa longueur d'onde $\lambda$. Il en résulte une modification de la propagation de cette onde  au-delà de l'obstacle : pour une onde plane, les fronts d'onde obtenus sont presque circulaires.
+\paragraph{}
+Afin d'observer ce phénomène, nous réalisons une expérience qui consiste à faire passer
+un rayon monochromatique de longueur d'onde $\lambda$ au travers une fente très mince de largeur b, et à projeter ce rayon sur un écran situé à une distance D de l'obstacle. 
+\paragraph{}
+D'après la théorie, les fronts d'onde du rayon diffracté étant circulaires, nous devrions donc observer sur l'écran une succession de franges sombres et de franges lumineuses dont l'intensité maximale et la taille varient selon la position sur l'écran.
+Cet ensemble de franges forme une figure de diffraction symétrique dont l'intensité est proportionnelle au carré de l'amplitude de l'onde et dépend de l'angle $\theta$ :
+\paragraph{}
+\begin{equation}
+I_{\theta} = I_{0} \frac{sin^{2}\beta}{•\beta^{2}}
+\end{equation}
+\begin{equation}
+\beta = \frac{\pi.b.sin\theta}{\lambda}
+\end{equation}
+\begin{equation}
+\sin\theta \approx \tan\theta = \frac{z}{D}
+\end{equation}
+\paragraph{}
+\subparagraph{•}
+Les minima apparaissent pour $\beta = \pi,2\pi...$
+\subparagraph{•}
+Les maxima  sont obtenus pour $\beta = 1,43\pi...$
+\paragraph{}
+L'expérience est réalisée en utilisant dans un premier temps une fente rectangulaire et ensuite une fente circulaire.
+
+
 	\section{Schéma de principe}
+	voir figure \ref{schemadeprincipe} p.\pageref{schemadeprincipe}
+	\begin{figure}[!]
+	\caption{\label{schemadeprincipe} Schéma de principe de l'expérience}
+	\includegraphics[scale=0.5]{schemadeprincipe.jpg}
+	\end{figure}
 	\section{Liste du matériel}
 	\begin{itemize}
 	\item laser monochromatique
@@ -22,19 +56,25 @@
 	\item statif
 	\end{itemize}
 	\section{Principe de l'expérience}
+	La manipulation consiste à vérifier la figure de diffraction obtenue et à mesurer la position des minima d'intensité observés sur l'écran pour en déduire la longueur d'onde du rayon projeté, ceci grâce à la relation  
+	$\lambda = \frac{\pi.e.z}{\beta.D}$. Nous pouvons alors comparer cette valeur avec la valeur théorique de $\lambda$ qui est connue pour le laser utilisé.
 	\section{Tableau de mesures}
 	\subsection{Expérience avec fente rectangulaire}
+	\begin{center}	
 	\begin{tabular}{|c|c|c|c|c|c|c|}
 		\hline
 		\bf n & \bf D & \bf $\Delta$D & \bf z & \bf $\Delta$z & \bf $\lambda$& \bf $\Delta\lambda$ \\
 		\hline
 		 & \bf [mm] & \bf [mm] & \bf [mm] & \bf [mm] & \bf [nm]  & \bf [nm] \\
 		\hline
-		4 & 5670 & 50 &  &  1 &&  \\
-		5 & 5670 & 50 &  &  1 && \\
+		4 & 5670 & 50 & 118 &  1 & &  \\
+		5 & 5670 & 50 & 146 &  1 & & \\
 		\hline
 	\end{tabular}
+	\end{center}
 	\subsection{Expérience avec fente circulaire}
+	\begin{center}
+	
 	\begin{tabular}{|c|c|c|c|c|c|c|}
 		\hline
 		\bf n & \bf D & \bf $\Delta$D & \bf z & \bf $\Delta$z & \bf $\oslash$& \bf $\Delta\oslash$ \\
@@ -45,6 +85,7 @@
 		5 & 5670 & 50 & 42&  1 &0,4& \\
 		\hline
 	\end{tabular}
+	\end{center}	
 	\section{Calculs}
 		\subsection{Expérience avec fente rectangulaire}
 		\subsubsection{Calcul de la longueur d'onde $\lambda$ du rayon laser}
@@ -87,7 +128,21 @@
 	\section{Conclusion}
 \chapter{Le phénomène d'interférence}
 	\section{Rappels théorique}
+\paragraph{}	
+Le phénomène d'interférence a lieu lorsque deux ondes se rencontrent et se chevauchent pour produire des points d'interférence constructive ou destructive.
+\paragraph{}
+Pour observer ce phénomène, nous faisons passer un rayon monochromatique de longueur d'onde $\lambda$ au travers de deux fentes minces espacées d'une longueur d, de manière à engendrer deux sources ponctuelles cohérentes. Nous plaçons un écran face à l'obstacle et à une distance D de celui-ci de manière à obtenir la figure d'interférence des ondes. 
+\paragraph{}
+Si nous pouvions isoler le phénomène d'interférence, la figure obtenue représenterait une succession de franges sombres (interférences destructives) et de franges lumineuses (interférences constructives) de même taille. De plus, l'intensité maximale des franges lumineuses serait constante et proportionnelle au carré de l'amplitude de l'onde 
+
+!!
+
+Les minima seraient alors obtenus pour $\alpha$=… et les maxima pour $\alpha$=…
+
+Dans la pratique, comme nous utilisons des fentes d'une largeur comparable à $\lambda$ pour former nos sources cohérentes, un phénomène de diffraction (comme vu précédemment) apparaît également et s'ajoute au phénomène d'interférence. La figure (mettre image) obtenue sur l'écran n'est donc plus une simple fonction périodique puisqu'il s'agit ici du produit du facteur de diffraction $\left(\frac{sin(\beta)}{2})\right)^{2}/(\beta/2)^2$ avec le facteur d'interférence $(cos\alpha)^{2}$. Nous retrouvons donc une figure symétrique avec une succession périodique de franges dont l’intensité lumineuse varie et en son centre nous avons un pic d'intensité deux fois plus large que les autres zones
+
 	\section{Schéma de principe}
+	voir figure \ref{schemadeprincipe} p.\pageref{schemadeprincipe}
 	\section{Liste du matériel}
 	\begin{itemize}
 	\item laser monochromatique
@@ -98,7 +153,9 @@
 	\item statif
 	\end{itemize}
 	\section{Principe de l'expérience}
+	La manipulation consiste à vérifier la figure obtenue et à mesurer la position des minima d'intensité observés sur l'écran pour en déduire la distance inter-fentes d de la diapositive utilisée, ceci grâce à la relation $b = \frac{\alpha .\lambda.D }{\pi.z}$
 	\section{Tableau de mesures}
+	\begin{center}		
 	\begin{tabular}{|c|c|c|c|c|c|c|c|}
 		\hline
 		\bf n & \bf D & \bf $\Delta$D & \bf z & \bf $\Delta$z & \bf b & \bf $\Delta$b & \bf $\alpha$ \\
@@ -115,6 +172,7 @@
 		8 & 5670 & 50 & 44 &  1&0,60 &  & $\frac{15\pi}{2}$\\
 		\hline
 	\end{tabular}
+	\end{center}
 	\section{Calculs}
 		Calcul réalisé pour la dernière ligne du tableau
 		\subsection{Calcul de l'écart entre les 2 fentes b}
@@ -137,11 +195,40 @@
 	\section{Conclusion}
 \chapter{Les réseaux de diffraction}
 	\section{Rappels théorique}
+\paragraph{}	
+	Un réseau de diffraction peut être obtenu en faisant passer un rayon lumineux de longueur d'onde $\lambda$ au travers d'un très grand nombre N de fentes étroites parallèles. Pour observer le réseau, on place un écran à une distance D de la diapositive de fentes.
+\paragraph{}
+Comme ce réseau de fentes disperse le rayon sous un angle $\theta$ important, nous obtenons une figure très étendue et composée de maxima d'intensité beaucoup plus étroits que dans les expériences précédentes.
+\paragraph{}
+L'intensité de l'onde ‘formule cadrep49’ est ici proportionnelle  au facteur d'interférence ‘(sinNγ)/sinγ’ avec ‘γ=π…. + préciser que a=1/N’
+
+Ce facteur s’annule pour γ=(n’π/N) avec n’…. (p49)
+
+Et donne des maximum d’intensité pour ‘γ= nπ’…
+
 	\section{Schéma de principe}
+	voir figure \ref{schemadeprincipe} p.\pageref{schemadeprincipe}
 	\section{Liste du matériel}
+	\begin{itemize}
+	\item un laser He-Ne dont la longueur d'onde $\lambda = 632,8nm$
+	\item une alimentation
+	\item un banc optique
+	\item mètre ruban
+	\item dias à réseaux de fentes parallèles
+	\item porte dia
+	\item écran de projection
+	\item statif
+	\end{itemize}
 	\section{Principe de l'expérience}
+\paragraph{}
+Dans un premier temps, la manipulation consiste à observer la figure obtenue et à relever les positions des maxima en utilisant un réseau de 'densité' connue pour déterminer la longueur $\lambda$ d'onde du rayon.
+
+\paragraph{}
+Ensuite, en utilisant le $\lambda$ obtenu, effectuer la même démarche pour un réseau de densité inconnue et donc déterminer celle-ci
+
 	\section{Tableau de mesures}
 	\subsection{500 fentes}
+	\begin{center}	
 	\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
 		\hline
 		\bf n & \bf D & \bf $\Delta$D & \bf z & \bf $\Delta$z & \bf $\theta$ & \bf $\Delta \theta$ & $\lambda$& $\Delta \lambda$&\bf $\gamma$ \\
@@ -155,7 +242,9 @@
 		5 & 5670 & 50 & 911 &  1&9,13&0,09&634,5&51,82&$5\pi$\\
 		\hline
 	\end{tabular}
+	\end{center}
 	\subsection{1400 fentes}
+	\begin{center}	
 	\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
 		\hline
 		\bf n & \bf D & \bf $\Delta$D & \bf z & \bf $\Delta$z & \bf $\theta$ & \bf $\Delta \theta$ & $\lambda$& $\Delta \lambda$&\bf $\gamma$ \\
@@ -167,7 +256,9 @@
 		3 & 5670 & 50 & 1378 &  1&13,66&0,13&562,8&68,3&$3\pi$\\
 		\hline
 	\end{tabular}
+	\end{center}
 	\subsection{Nombre de fentes inconnu}
+	\begin{center}	
 	\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
 		\hline
 		\bf n & \bf D & \bf $\Delta$D & \bf z & \bf $\Delta$z & \bf $\theta$ & \bf $\Delta \theta$ &\bf $\gamma$ & N\\
@@ -179,6 +270,7 @@
 		3 & 5670 & 50 & 1096 &  1&10,94&0,11 &$3\pi$&1006\\
 		\hline
 	\end{tabular}
+	\end{center}
 	\section{Calculs}
 	Calcul réalisé pour la dernière ligne du tableau
 	\subsection{Calcul du $\theta$}
