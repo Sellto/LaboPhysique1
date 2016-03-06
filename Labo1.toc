@@ -23,6 +23,8 @@
 \contentsline {subsubsection}{Calcul de la longueur du diam\IeC {\`e}tre de la fente}{4}
 \contentsline {subsubsection}{Calcul de l'incertitude sur le diam\IeC {\`e}tre de la fente}{4}
 \contentsline {section}{\numberline {1.7}Conclusion}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
 \contentsline {chapter}{\numberline {2}Le ph\IeC {\'e}nom\IeC {\`e}ne d'interf\IeC {\'e}rence}{5}
 \contentsline {section}{\numberline {2.1}Rappels th\IeC {\'e}orique}{5}
 \contentsline {paragraph}{}{5}
