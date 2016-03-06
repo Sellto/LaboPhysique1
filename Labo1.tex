@@ -12,12 +12,69 @@
 	\section{Rappels théorique}
 	\section{Schéma de principe}
 	\section{Liste du matériel}
-	
+	\begin{itemize}
+	\item laser monochromatique
+	\item mètre ruban
+	\item dias à fente rectangulaire
+	\item dias à fente circulaire
+	\item porte dia
+	\item écran de projection
+	\item statif
+	\end{itemize}
 	\section{Principe de l'expérience}
 	\section{Tableau de mesures}
+	\subsection{Expérience avec fente rectangulaire}
+	\begin{tabular}{|c|c|c|c|c|c|c|}
+		\hline
+		\bf n & \bf D & \bf $\Delta$D & \bf z & \bf $\Delta$z & \bf $\lambda$& \bf $\Delta\lambda$ \\
+		\hline
+		 & \bf [mm] & \bf [mm] & \bf [mm] & \bf [mm] & \bf [nm]  & \bf [nm] \\
+		\hline
+		4 & 5670 & 50 &  &  1 &&  \\
+		5 & 5670 & 50 &  &  1 && \\
+		\hline
+	\end{tabular}
+	\subsection{Expérience avec fente circulaire}
+	\begin{tabular}{|c|c|c|c|c|c|c|}
+		\hline
+		\bf n & \bf D & \bf $\Delta$D & \bf z & \bf $\Delta$z & \bf $\oslash$& \bf $\Delta\oslash$ \\
+		\hline
+		 & \bf [mm] & \bf [mm] & \bf [mm] & \bf [mm] & \bf [nm]  & \bf [nm] \\
+		\hline
+		4 & 5670 & 50 & 34&  1 &&  \\
+		5 & 5670 & 50 & 42&  1 && \\
+		\hline
+	\end{tabular}
 	\section{Calculs}
-		\subsection{Calcul de ...}
-		\subsection{Calcul de l'incertitude de ...}
+		\subsection{Expérience avec fente rectangulaire}
+		\subsubsection{Calcul de la longueur d'onde $\lambda$ du rayon laser}
+		\begin{equation}
+		\lambda = \frac{a.z_{n}}{n.D}		
+		\end{equation}		 
+		où
+		 \begin{itemize}
+		  \item a est la largeur de la fente
+		  \item D est la distance écran-dia
+		  \item n est ordre
+		  \item z est distance du minima 
+		 \end{itemize}
+		
+				
+		\subsubsection{Calcul de l'incertitude de $\lambda$}
+		\begin{equation}
+		\frac{\Delta \lambda}{\lambda} = \frac{\Delta\left(\frac{a.z_{n}}{n.D}\right)}{\frac{a.z_{n}}{n.D}} 
+		= \frac{\Delta D}{D}+\frac{\Delta z_{n}}{z_{n}}
+		\end{equation}
+		\begin{equation}
+		\Delta \lambda
+		= \left(\frac{\Delta D}{D}+\frac{\Delta z_{n}}{z_{n}}\right).\lambda
+		\end{equation}
+		\begin{center}
+		$\Delta b = \left(\frac{50}{5670}+\frac{,,}{,,}\right).,, = $
+		\end{center}
+		\subsection{Expérience avec fente circulaire}
+		\subsubsection{Calcul de la longueur d'onde $\lambda$ du rayon laser}
+		\subsubsection{Calcul de l'incertitude de $\lambda$}
 	\section{Conclusion}
 \chapter{Le phénomène d'interférence}
 	\section{Rappels théorique}
