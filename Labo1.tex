@@ -132,8 +132,79 @@
 	\section{Liste du matériel}
 	\section{Principe de l'expérience}
 	\section{Tableau de mesures}
+	\subsection{500 fentes}
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+		\hline
+		\bf n & \bf D & \bf $\Delta$D & \bf z & \bf $\Delta$z & \bf $\theta$ & \bf $\Delta \theta$ & $\lambda$& $\Delta \lambda$&\bf $\gamma$ \\
+		\hline
+		 & \bf [mm] & \bf [mm] & \bf [mm] & \bf [mm] & \bf [\degre]  & \bf [\degre]  &  [nm] & [nm] & [rad]\\
+		\hline
+		1 & 5670 & 50 & 183 &   1&1,85&  &645,2& &$\pi$\\
+		2 & 5670 & 50 & 365 &  1&3,68&  &642,4& &$2\pi$\\
+		3 & 5670 & 50 & 499 &  1&5,03&  &584,4& &$3\pi$\\
+		4 & 5670 & 50 & 729 &  1&7,32&  &637,6& &$4\pi$\\
+		5 & 5670 & 50 & 911 &  1&9,13&  &634,5& &$5\pi$\\
+		\hline
+	\end{tabular}
+	\subsection{1400 fentes}
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+		\hline
+		\bf n & \bf D & \bf $\Delta$D & \bf z & \bf $\Delta$z & \bf $\theta$ & \bf $\Delta \theta$ & $\lambda$& $\Delta \lambda$&\bf $\gamma$ \\
+		\hline
+		 & \bf [mm] & \bf [mm] & \bf [mm] & \bf [mm] & \bf [\degre]  & \bf [\degre]  &  [nm] & [nm] & [rad]\\
+		\hline
+		1 & 5670 & 50 & 45 &   1&4,54&  &565,1& &$\pi$\\
+		2 & 5670 & 50 & 905 &  1&9,07&  &562,9& &$2\pi$\\
+		3 & 5670 & 50 & 1378 &  1&13,66&  &562,8& &$3\pi$\\
+		\hline
+	\end{tabular}
+	\subsection{Nombre de fentes inconnu}
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+		\hline
+		\bf n & \bf D & \bf $\Delta$D & \bf z & \bf $\Delta$z & \bf $\theta$ & \bf $\Delta \theta$ & $\lambda$& $\Delta \lambda$&\bf $\gamma$ \\
+		\hline
+		 & \bf [mm] & \bf [mm] & \bf [mm] & \bf [mm] & \bf [\degre]  & \bf [\degre]  &  [nm] & [nm] & [rad]\\
+		\hline
+		1 & 5670 & 50 & 36 &   1&3,63&  &565,1& &$\pi$\\
+		2 & 5670 & 50 & 726 &  1&7,29&  &562,9& &$2\pi$\\
+		3 & 5670 & 50 & 1096 &  1&10,94&  &562,8& &$3\pi$\\
+		\hline
+	\end{tabular}
 	\section{Calculs}
-		\subsection{Calcul de ...}
-		\subsection{Calcul de l'incertitude de ...}
+	\subsection{Formule pour le calcul du $\theta$}
+	\begin{equation}
+	\theta = tan^{-1}\left(\frac{z_{n}}{D}\right) 
+	\end{equation}
+	\begin{equation}
+	\Delta \theta = tan^{-1}\left(\frac{z_{n}}{D}\right) 
+	\end{equation}
+	\begin{equation}
+\Delta\theta=\frac{\theta_{max}-\theta_{min}}{2}
+	\end{equation}
+	\begin{equation}
+	\theta_{max} = tan^{-1}\left(\frac{z}{D}+\Delta\left(\frac{z}{D}\right)\right)
+	\end{equation}
+	\begin{equation}
+	\theta_{min} = tan^{-1}\left(\frac{z}{D}-\Delta\left(\frac{z}{D}\right)\right)
+	\end{equation}
+	\begin{equation}
+	\Delta\left(\frac{z}{D}\right)=\left(\frac{\Delta z}{z}+\frac{\Delta D}{D}\right).\frac{z}{D}
+	\end{equation}
+	\subsection{Formule pour le calcul du $\lambda$}
+	\begin{equation}
+	\lambda = \frac{\pi.d.sin(\theta)}{\gamma}
+	\end{equation}
+	\begin{equation}
+	\Delta \lambda = \left(\frac{sin(\theta_{max})-sin(\theta_{min})}{2}\right) . \lambda
+	\end{equation}
+	\subsection{Formule pour le calcul du nombre de fentes N}
+	\begin{equation}
+	d = \frac{1}{N} = \frac{n.\lambda}{sin(\theta)}
+	\end{equation}
+	\begin{equation}
+	N =  \frac{sin(\theta)}{n.\lambda}
+	\end{equation}
+	\subsection{Calcul de ...}
+	\subsection{Calcul de l'incertitude de ...}
 	\section{Conclusion}
 \end{document}
